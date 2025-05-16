@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="key" type="xs:string" minOccurs="0" />
+                <xs:element name="value" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <key>Voice</key>
+    <value>alloy</value>
+  </Table1>
+  <Table1>
+    <key>SrcFile</key>
+    <value />
+  </Table1>
+  <Table1>
+    <key>ImageFile</key>
+    <value />
+  </Table1>
+  <Table1>
+    <key>Text</key>
+    <value />
+  </Table1>
+  <Table1>
+    <key>ApiKey</key>
+    <value />
+  </Table1>
+  <Table1>
+    <key>SelectedRowIndex</key>
+    <value>-1</value>
+  </Table1>
+  <Table1>
+    <key>TextColor</key>
+    <value>-1</value>
+  </Table1>
+  <Table1>
+    <key>BackColor</key>
+    <value>-1</value>
+  </Table1>
+  <Table1>
+    <key>BottomMargin</key>
+    <value>100</value>
+  </Table1>
+  <Table1>
+    <key>LeftMargin</key>
+    <value />
+  </Table1>
+</NewDataSet>

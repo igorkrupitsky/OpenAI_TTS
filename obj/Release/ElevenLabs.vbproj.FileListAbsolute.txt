@@ -1,0 +1,13 @@
+C:\Users\80014379\source\repos\ElevenLabs\bin\Release\ElevenLabs.exe.config
+C:\Users\80014379\source\repos\ElevenLabs\bin\Release\ElevenLabs.exe
+C:\Users\80014379\source\repos\ElevenLabs\bin\Release\ElevenLabs.pdb
+C:\Users\80014379\source\repos\ElevenLabs\bin\Release\ElevenLabs.xml
+C:\Users\80014379\source\repos\ElevenLabs\obj\Release\ElevenLabs.frmChangeVolume.resources
+C:\Users\80014379\source\repos\ElevenLabs\obj\Release\ElevenLabs.Form1.resources
+C:\Users\80014379\source\repos\ElevenLabs\obj\Release\ElevenLabs.frmYouTube.resources
+C:\Users\80014379\source\repos\ElevenLabs\obj\Release\ElevenLabs.Resources.resources
+C:\Users\80014379\source\repos\ElevenLabs\obj\Release\ElevenLabs.vbproj.GenerateResource.cache
+C:\Users\80014379\source\repos\ElevenLabs\obj\Release\ElevenLabs.vbproj.CoreCompileInputs.cache
+C:\Users\80014379\source\repos\ElevenLabs\obj\Release\ElevenLabs.exe
+C:\Users\80014379\source\repos\ElevenLabs\obj\Release\ElevenLabs.xml
+C:\Users\80014379\source\repos\ElevenLabs\obj\Release\ElevenLabs.pdb

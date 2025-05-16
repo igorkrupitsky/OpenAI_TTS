@@ -1,0 +1,13 @@
+C:\Users\80014379\source\repos\OpenAiTTS\bin\Debug\OpenAiTTS.exe.config
+C:\Users\80014379\source\repos\OpenAiTTS\bin\Debug\OpenAiTTS.exe
+C:\Users\80014379\source\repos\OpenAiTTS\bin\Debug\OpenAiTTS.pdb
+C:\Users\80014379\source\repos\OpenAiTTS\bin\Debug\OpenAiTTS.xml
+C:\Users\80014379\source\repos\OpenAiTTS\obj\Debug\OpenAiTTS.Form1.resources
+C:\Users\80014379\source\repos\OpenAiTTS\obj\Debug\OpenAiTTS.frmYouTube.resources
+C:\Users\80014379\source\repos\OpenAiTTS\obj\Debug\OpenAiTTS.Resources.resources
+C:\Users\80014379\source\repos\OpenAiTTS\obj\Debug\OpenAiTTS.vbproj.GenerateResource.cache
+C:\Users\80014379\source\repos\OpenAiTTS\obj\Debug\OpenAiTTS.vbproj.CoreCompileInputs.cache
+C:\Users\80014379\source\repos\OpenAiTTS\obj\Debug\OpenAiTTS.exe
+C:\Users\80014379\source\repos\OpenAiTTS\obj\Debug\OpenAiTTS.xml
+C:\Users\80014379\source\repos\OpenAiTTS\obj\Debug\OpenAiTTS.pdb
+C:\Users\80014379\source\repos\OpenAiTTS\obj\Debug\OpenAiTTS.vbproj.AssemblyReference.cache

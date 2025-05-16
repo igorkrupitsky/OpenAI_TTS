@@ -1,0 +1,767 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+OpenAiTTS
+</name>
+</assembly>
+<members>
+<member name="T:OpenAiTTS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:OpenAiTTS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:OpenAiTTS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:OpenAiTTS.Monotic.Multimedia.MP3.MPEGVersionEnum">
+ <summary>
+     MPEG Audio version ID enumeration.
+ </summary>
+ <remarks>
+		See the MPEGVersion property for more information.
+ </remarks>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.MPEGVersionEnum.MPEG25">
+ <summary>
+     MPEG Version 2.5 (later extension of MPEG 2)
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.MPEGVersionEnum.Reserved">
+ <summary>
+     Reserved
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.MPEGVersionEnum.MPEG2">
+ <summary>
+     MPEG Version 2 (ISO/IEC 13818-3)
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.MPEGVersionEnum.MPEG1">
+ <summary>
+     MPEG Version 1 (ISO/IEC 11172-3)
+ </summary>
+</member>
+<member name="T:OpenAiTTS.Monotic.Multimedia.MP3.LayerEnum">
+ <summary>
+     Layer description enumeration.
+ </summary>
+ <remarks>
+		See the Layer property for more information.
+ </remarks>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.LayerEnum.Reserved">
+ <summary>
+     Reserved
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.LayerEnum.LayerIII">
+ <summary>
+     Layer III
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.LayerEnum.LayerII">
+ <summary>
+     Layer II
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.LayerEnum.LayerI">
+ <summary>
+     Layer I
+ </summary>
+</member>
+<member name="T:OpenAiTTS.Monotic.Multimedia.MP3.ProtectionEnum">
+ <summary>
+     Protection description enumeration.
+ </summary>
+ <remarks>
+		See the Protection property for more information.
+ </remarks>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.ProtectionEnum.CRC">
+ <summary>
+     Protected by CRC (16bit CRC follows header)
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.ProtectionEnum.None">
+ <summary>
+     Not protected
+ </summary>
+</member>
+<member name="T:OpenAiTTS.Monotic.Multimedia.MP3.ChannelModeEnum">
+ <summary>
+     Channel mode enumeration.
+ </summary>
+ <remarks>
+		See the ChannelMode property for more information.
+ </remarks>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.ChannelModeEnum.Stereo">
+ <summary>
+     Stereo
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.ChannelModeEnum.JointStereo">
+ <summary>
+     Joint stereo
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.ChannelModeEnum.DualChannel">
+ <summary>
+     Dualo channel (2 mono channels)
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.ChannelModeEnum.SingleChannel">
+ <summary>
+     Single channel (Mono)
+ </summary>
+</member>
+<member name="T:OpenAiTTS.Monotic.Multimedia.MP3.EmphasisEnum">
+ <summary>
+     Emphasis description enumeration.
+ </summary>
+ <remarks>
+		See the Emphasis property for more information.
+ </remarks>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.EmphasisEnum.None">
+ <summary>
+     None
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.EmphasisEnum.MS5015">
+ <summary>
+     50/15 ms
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.EmphasisEnum.Reserved">
+ <summary>
+     Reserved
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.EmphasisEnum.CCIT">
+ <summary>
+     CCIT J.17
+ </summary>
+</member>
+<member name="T:OpenAiTTS.Monotic.Multimedia.MP3.EncodingEnum">
+ <summary>
+     Encoding enumeration.
+ </summary>
+ <remarks>
+		See the Encoding property for more information.
+ </remarks>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.EncodingEnum.CBR">
+ <summary>
+     Constant bitrate
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.EncodingEnum.VBR">
+ <summary>
+     Variable bitrate
+ </summary>
+</member>
+<member name="T:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1TagVersionEnum">
+ <summary>
+		ID3 v1 tag version enumeration.
+ </summary>
+ <remarks>
+		See the TagVersion property for more information.
+ </remarks>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1TagVersionEnum.Version10">
+ <summary>
+     Tag version 1.0
+ </summary>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1TagVersionEnum.Version11">
+ <summary>
+     Tag version 1.1
+ </summary>
+</member>
+<member name="T:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info">
+ <summary>
+     Provides methods to retrieve informations about MPEG files and to get and set 
+     different tag formats.
+ </summary>
+ <remarks>
+     <para>Use the <b>MP3Info</b> class for typical operations on MPEG files, like reading 
+     and writing ID3 v1 and v2 tags or getting general MPEG informations.
+     <note type="note">
+     In members that accept a path as an input string, that path must be well-formed 
+     or an exception is raised. For example, if a path is fully qualified but begins 
+     with a space, the path is not trimmed in methods of the class. Therefore, the path 
+     is malformed and an exception is raised. Similarly, a path or a combination of 
+     paths cannot be fully qualified twice. For example, "c:\temp c:\windows" also 
+     raises an exception in most cases. Ensure that your paths are well-formed when 
+     using methods that accept a path string.
+     </note></para>
+     <para>This class was made by using informations from the following websites:
+     <list type="bullet">
+     <item><a href="http://gabriel.mp3-tech.org/mp3infotag.html">http://gabriel.mp3-tech.org/mp3infotag.html</a></item>
+     <item><a href="http://www.multiweb.cz/twoinches/MP3inside.htm#MP3FileStructure">http://www.multiweb.cz/twoinches/MP3inside.htm#MP3FileStructure</a></item>
+     <item><a href="http://www.codeguru.com/vb/gen/vb_multimedia/mp3s/article.php/c4267">http://www.codeguru.com/vb/gen/vb_multimedia/mp3s/article.php/c4267</a></item>
+     <item><a href="http://www.getid3.org/">http://www.getid3.org/</a></item>
+     <item><a href="http://www.mp3-converter.com/mp3codec/mp3_anatomy.htm">http://www.mp3-converter.com/mp3codec/mp3_anatomy.htm</a></item>
+     <item><a href="http://www.mp3-tech.org/">http://www.mp3-tech.org/</a></item>
+     <item><a href="http://www.codeproject.com/audio/MPEGAudioInfo.asp">http://www.codeproject.com/audio/MPEGAudioInfo.asp</a></item>
+     </list></para>
+ </remarks>
+ <example>
+		The following example demonstrates some of the main members of the 
+		<b>MP3Info</b> class.
+		<code language="VB.NET">
+		[Visual Basic]
+		Dim objInfo As New MP3Info("c:\test.mp3")
+		...
+		</code>
+ </example>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.f_strFilename">
+ Declarations for friend variables holding the property values
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.m_objHeaderBits">
+ Declarations for internal variables
+</member>
+<member name="T:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.XingHeaderStructure">
+
+</member>
+<member name="M:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.#ctor">
+ <summary>
+     Initializes a new instance of the MP3Info class.
+ </summary>
+ <remarks>
+		None.
+ </remarks>
+</member>
+<member name="M:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.#ctor(System.String)">
+ <summary>
+     Initializes a new instance of the MP3Info class with the specified MP3 file.
+ </summary>
+ <param name="strFilename" type="String">
+     <para>
+         The filename of the MP3 file.
+     </para>
+ </param>
+ <remarks>
+		None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.Filename">
+ <summary>
+     Gets or sets the filename of the MP3 file.
+ </summary>
+ <value>
+     <para>
+         The filename of the MP3 file.
+     </para>
+ </value>
+ <exception cref="T:System.Exception">The specified file is not a valid MP3 file.</exception>
+ <exception cref="T:System.IO.IOException">The specified file doesn't exist.</exception>
+ <remarks>
+		None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.Filesize">
+ <summary>
+     Gets the total file size in size.
+ </summary>
+ <value>
+     <para>
+         File size in bytes.
+     </para>
+ </value>
+ <remarks>
+		None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.HeaderPosition">
+ <summary>
+     Gets the position of the MPEG header.
+ </summary>
+ <value>
+     <para>
+         The position of the MPEG header.
+     </para>
+ </value>
+ <remarks>
+		None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.ID3v1Tag">
+ <summary>
+     Gets or sets the ID3v1 tag.
+ </summary>
+ <value>
+     <para>
+         An ID3v1Tag object containing the ID3v1 tag.
+     </para>
+ </value>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.VBRScale">
+ <summary>
+     Gets the encoding quality for variable bitrate encoded files.
+ </summary>
+ <value>
+     <para>
+         An integer describing the quality of the encoding.
+     </para>
+ </value>
+ <remarks>
+     The range of these value starts with "0" (best) and ends with "100" (worst).
+     The property will return "-1" if the file was encoded using a constant 
+     bitrate.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.Encoding">
+ <summary>
+     Gets the encoding.
+ </summary>
+ <value>
+     <para>
+         An EncodingEnum value describing the encoding.
+     </para>
+ </value>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.FrameSize">
+ <summary>
+     Gets the size of each frame of the audio data in bytes.
+ </summary>
+ <value>
+     <para>
+         The size of each frame of the audio data in bytes.
+     </para>
+ </value>
+ <remarks>
+		If the file is encoded with a variable bitrate, this value describes the
+		average frame size.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.FrameSamples">
+ <summary>
+     Gets the number of samples for each audio frame.
+ </summary>
+ <value>
+     <para>
+         The number of samples for each audio frame.
+     </para>
+ </value>
+ <remarks>
+		None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.MPEGVersion">
+ <summary>
+     Gets the MPEG audio version.
+ </summary>
+ <value>
+     <para>
+         A MPEGTypeEnum value describing the MPEG audio type.
+     </para>
+ </value>
+ <remarks>
+     MPEG Version 2.5 was added lately to the MPEG 2 standard. It is an extension 
+     used for very low bitrate files, allowing the use of lower sampling frequencies. 
+     If your decoder does not support this extension, it is recommended for you to 
+     use 12 bits for synchronization instead of 11 bits.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.Layer">
+ <summary>
+     Gets the MPEG layer.
+ </summary>
+ <value>
+     <para>
+         A LayerEnum value describing the MPEG layer.
+     </para>
+ </value>
+ <remarks>
+		None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.Protection">
+ <summary>
+     Gets the protection.
+ </summary>
+ <value>
+     <para>
+         A ProtectionEnum value describing the protection.
+     </para>
+ </value>
+ <remarks>
+		If this property returns CRC, the file is protected by CRC (16bit CRC follows 
+		header).
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.ChannelMode">
+ <summary>
+     Gets the channel mode.
+ </summary>
+ <value>
+     <para>
+         A ChannelModeEnum value describing the channel mode.
+     </para>
+ </value>
+ <remarks>
+     Dual channel files are made of two independant mono channel. Each one uses 
+     exactly half the bitrate of the file. Most decoders output them as stereo, 
+     but it might not always be the case.
+     <br></br>
+     <br></br>
+     One example of use would be some speech in two different languages carried 
+     in the same bitstream, and then an appropriate decoder would decode only 
+     the choosen language.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.SamplingRateFrequency">
+ <summary>
+     Gets the sampling rate frequency in Hz.
+ </summary>
+ <value>
+     <para>
+         An integer containing the sampling rate frequency in Hz.
+     </para>
+ </value>
+ <remarks>
+		None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.Copyright">
+ <summary>
+     Gets the copyright.
+ </summary>
+ <value>
+     <para>
+         A boolean value containing the copyright.
+     </para>
+ </value>
+ <remarks>
+		The copyright has the same meaning as the copyright bit on CDs and DAT tapes, 
+		i.e. telling that it is illegal to copy the contents if the bit is set.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.Bitrate">
+ <summary>
+     Gets the bitrate in kbps.
+ </summary>
+ <value>
+     <para>
+         The bitrate in kbps.
+     </para>
+ </value>
+ <remarks>
+     The return value "0" means free format. The free bitrate must remain 
+     constant, an must be lower than the maximum allowed bitrate. Decoders are 
+     not required to support decoding of free bitrate streams.
+     <br></br>
+     <br></br>
+		The return value "-1" means that the value is unallowed. 
+     <br></br>
+     <br></br>
+		If the file is encoded with a variable bitrate, this value describes the
+		average bitrate.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.Padding">
+ <summary>
+     Gets the padding in bytes.
+ </summary>
+ <value>
+     <para>
+         The padding in bytes
+     </para>
+ </value>
+ <remarks>
+     Padding is used to exactly fit the bitrate. As an example: 128kbps 44.1kHz 
+     layer II uses a lot of 418 bytes and some of 417 bytes long frames to get 
+     the exact 128k bitrate. For Layer I slot is 32 bits long, for Layer II and 
+     Layer III slot is 8 bits long.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.PrivateBit">
+ <summary>
+     Gets the private bit.
+ </summary>
+ <value>
+     <para>
+         A boolean value containing the private bit.
+     </para>
+ </value>
+ <remarks>
+     This one is only informative.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.OriginalBit">
+ <summary>
+     Gets the original bit.
+ </summary>
+ <value>
+     <para>
+         A boolean value containing the original bit.
+     </para>
+ </value>
+ <remarks>
+     The original bit indicates, if it is set, that the frame is located on its 
+     original media.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.Emphasis">
+ <summary>
+     Gets the emphasis.
+ </summary>
+ <value>
+     <para>
+         An EmphasisEnum value describing the emphasis.
+     </para>
+ </value>
+ <remarks>
+     The emphasis indication is here to tell the decoder that the file must 
+     be de-emphasized, ie the decoder must "re-equalize" the sound after a 
+     Dolby-like noise supression. It is rarely used.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.Length">
+ <summary>
+     Gets the length in seconds.
+ </summary>
+ <value>
+     <para>
+         The length in seconds.
+     </para>
+ </value>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="M:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.Update">
+ <summary>
+     Writes all changes to the file.
+ </summary>
+ <remarks>
+		None.
+ </remarks>
+</member>
+<member name="M:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.GetID3v1Tag">
+ <summary>
+     Retrieves the ID3v1 tag.
+ </summary>
+ <returns>
+     An ID3v1Tag object containing the tag.
+ </returns>
+</member>
+<member name="M:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.SetID3v1Tag">
+ <summary>
+     Writes the ID3 v1 tag.
+ </summary>
+ <remarks>
+		None.
+ </remarks>
+</member>
+<member name="M:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.ReadHeaders">
+ <summary>
+     
+ </summary>
+ 
+ <returns>
+     
+ </returns>
+</member>
+<member name="M:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.BitsToString(System.Collections.BitArray,System.Int32,System.Int32)">
+ <summary>
+     
+ </summary>
+ <param name="intStart" type="Int32">
+     <para>
+         
+     </para>
+ </param>
+ <param name="intEnd" type="Int32">
+     <para>
+         
+     </para>
+ </param>
+ <returns>
+     A System.String BitsToString  value...
+ </returns>
+</member>
+<member name="M:OpenAiTTS.Monotic.Multimedia.MP3.MP3Info.BytesToString(System.Byte[],System.Int32,System.Int32)">
+ <summary>
+     Converts bytes to string.
+ </summary>
+ <param name="Bytes" type="Byte">
+     <para>
+         The byte array containing bytes to convert.
+     </para>
+ </param>
+ <param name="StartIndex" type="Int32">
+     <para>
+         The start index.
+     </para>
+ </param>
+ <param name="Length" type="Int32">
+     <para>
+         The length.
+     </para>
+ </param>
+ <returns>
+     The converted bytes as a string.
+ </returns>
+</member>
+<member name="T:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1Tag">
+ <summary>
+     
+ </summary>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="F:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1Tag.m_blnTagAvailable">
+ Declarations for friend variables holding the property values
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1Tag.TagAvailable">
+ <summary>
+     Gets the availability of an ID3 v1.x tag.
+ </summary>
+ <value>
+     <para>
+         A boolean value describing the availability of an ID3 v1.x tag.
+     </para>
+ </value>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1Tag.TagVersion">
+ <summary>
+     Gets or sets the tag version.
+ </summary>
+ <value>
+     <para>
+         An ID3v1TagVersionEnum value describing the tag version.
+     </para>
+ </value>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1Tag.Title">
+ <summary>
+     Gets or sets the title.
+ </summary>
+ <value>
+     <para>
+         The title.
+     </para>
+ </value>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1Tag.Artist">
+ <summary>
+     Gets or sets the artist.
+ </summary>
+ <value>
+     <para>
+         The artist.
+     </para>
+ </value>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1Tag.Album">
+ <summary>
+     Gets or sets the album name.
+ </summary>
+ <value>
+     <para>
+         The album name.
+     </para>
+ </value>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1Tag.Year">
+ <summary>
+     Gets or sets the Year.
+ </summary>
+ <value>
+     <para>
+         The year.
+     </para>
+ </value>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1Tag.Track">
+ <summary>
+     Gets or sets the track number.
+ </summary>
+ <value>
+     <para>
+         The track number.
+     </para>
+ </value>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1Tag.Comment">
+ <summary>
+     Gets or sets the comment.
+ </summary>
+ <value>
+     <para>
+         The comment.
+     </para>
+ </value>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="P:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1Tag.Genre">
+ <summary>
+     Gets or sets the genre id.
+ </summary>
+ <value>
+     <para>
+         The genre id.
+     </para>
+ </value>
+ <remarks>
+     None.
+ </remarks>
+</member>
+<member name="M:OpenAiTTS.Monotic.Multimedia.MP3.ID3v1Tag.GetGenreString(System.Byte)">
+ <summary>
+     Gets the genre as text.
+ </summary>
+ <param name="bytGenre" type="Byte">
+     <para>
+         The genre id.
+     </para>
+ </param>
+ <returns>
+     The genre as text.
+ </returns>
+</member>
+</members>
+</doc>

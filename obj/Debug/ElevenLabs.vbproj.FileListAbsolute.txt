@@ -1,0 +1,14 @@
+C:\Users\80014379\source\repos\ElevenLabs\obj\Debug\ElevenLabs.Form1.resources
+C:\Users\80014379\source\repos\ElevenLabs\obj\Debug\ElevenLabs.Resources.resources
+C:\Users\80014379\source\repos\ElevenLabs\obj\Debug\ElevenLabs.vbproj.GenerateResource.cache
+C:\Users\80014379\source\repos\ElevenLabs\obj\Debug\ElevenLabs.vbproj.CoreCompileInputs.cache
+C:\Users\80014379\source\repos\ElevenLabs\bin\Debug\ElevenLabs.exe.config
+C:\Users\80014379\source\repos\ElevenLabs\bin\Debug\ElevenLabs.exe
+C:\Users\80014379\source\repos\ElevenLabs\bin\Debug\ElevenLabs.pdb
+C:\Users\80014379\source\repos\ElevenLabs\bin\Debug\ElevenLabs.xml
+C:\Users\80014379\source\repos\ElevenLabs\obj\Debug\ElevenLabs.exe
+C:\Users\80014379\source\repos\ElevenLabs\obj\Debug\ElevenLabs.xml
+C:\Users\80014379\source\repos\ElevenLabs\obj\Debug\ElevenLabs.pdb
+C:\Users\80014379\source\repos\ElevenLabs\obj\Debug\ElevenLabs.frmChangeVolume.resources
+C:\Users\80014379\source\repos\ElevenLabs\obj\Debug\ElevenLabs.frmYouTube.resources
+C:\Users\80014379\source\repos\ElevenLabs\obj\Debug\ElevenLabs.vbproj.AssemblyReference.cache
